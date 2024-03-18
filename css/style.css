@@ -1,0 +1,101 @@
+:root {
+  --color-primary: #f9d72f;
+  --color-background: #e6e6e6;
+  --color-task: #f7f7f7;
+  --color-success: #198754;
+  --color-warning: #ffbf00;
+  --color-error: #dc3545;
+}
+
+body {
+  background-image: url(../img/paper-style-smooth-background_23-2148974875.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 1250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  flex-direction: column;
+}
+
+* {
+  font-family: cursive;
+  box-sizing: border-box;
+}
+
+header {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
+  height: 230px;
+  padding: 0px 20px;
+  margin-top: 40px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+  margin-top: 7px;
+}
+
+input {
+  width: 500px;
+  height: 40px;
+  padding: 8px 10px;
+  border: 2px solid var(--color-warning);
+  border-radius: 6px;
+  margin: 0px 7px;
+  font-size: 1rem;
+}
+
+input:focus {
+  border: 2px solid var(--color-warning);
+  outline: none;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.2s ease-in;
+}
+
+#add-button {
+  background-color: var(--color-warning);
+}
+
+#add-button:hover {
+  background-color: #fecf42;
+}
+
+.controle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin: 50px 50px;
+  margin-bottom: -20px;
+}
+
+.filter-button {
+  background-color: var(--color-warning);
+}
+
+.filter-button:hover {
+  background-color: #fecf42;
+}
+
+#delete-button {
+  background-color: var(--color-error);
+}
+
+#delete-button:hover {
+  background-color: #ff0019;
+}
