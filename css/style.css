@@ -99,3 +99,45 @@ button {
 #delete-button:hover {
   background-color: #ff0019;
 }
+
+main {
+  width: 100%;
+  margin-top: 50px;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+}
+
+thead th:nth-child(1) {
+  border-top-left-radius: 10px;
+}
+
+thead th:nth-child(4) {
+  border-top-right-radius: 10px;
+}
+
+thead tr th {
+  padding: 10px;
+  background-color: #e2e3e5;
+}
+
+tbody {
+  background-color: #ecedee;
+}
+
+tbody button:nth-child(1) {
+  background-color: var(--color-warning);
+  padding: 7px 10px;
+}
+
+tbody button:nth-child(2) {
+  background-color: var(--color-success);
+  padding: 7px 10px;
+}
+
+tbody button:nth-child(3) {
+  background-color: var(--color-error);
+  padding: 7px 10px;
+}
