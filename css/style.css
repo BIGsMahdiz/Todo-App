@@ -13,7 +13,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  width: 1250px;
+  width: 1300px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,6 +35,9 @@ header {
   text-align: center;
   background-color: #fff;
   border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 h1 {
@@ -75,12 +78,21 @@ button {
   background-color: #fecf42;
 }
 
+#edit-button {
+  background-color: var(--color-warning);
+  display: none;
+}
+
+#edit-button:hover {
+  background-color: #fecf42;
+}
+
 .controle {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 50px;
-  margin: 50px 50px;
+  margin: 50px 0px;
   margin-bottom: -20px;
 }
 
@@ -127,6 +139,14 @@ tbody {
   background-color: #ecedee;
 }
 
+tbody td {
+  padding: 5px 0px;
+}
+
+tbody button {
+  margin: 0px 2px;
+}
+
 tbody button:nth-child(1) {
   background-color: var(--color-warning);
   padding: 7px 10px;
@@ -140,4 +160,9 @@ tbody button:nth-child(2) {
 tbody button:nth-child(3) {
   background-color: var(--color-error);
   padding: 7px 10px;
+}
+
+.empty {
+  font-size: 1.3rem;
+  padding: 5px;
 }
