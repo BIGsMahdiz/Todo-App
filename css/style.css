@@ -114,7 +114,7 @@ button {
 
 main {
   width: 100%;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 table {
@@ -141,6 +141,8 @@ tbody {
 
 tbody td {
   padding: 5px 0px;
+  width: 25%;
+  word-break: break-all;
 }
 
 tbody button {
@@ -155,6 +157,7 @@ tbody button:nth-child(1) {
 tbody button:nth-child(2) {
   background-color: var(--color-success);
   padding: 7px 10px;
+  width: 60px;
 }
 
 tbody button:nth-child(3) {
@@ -165,4 +168,32 @@ tbody button:nth-child(3) {
 .empty {
   font-size: 1.3rem;
   padding: 5px;
+}
+
+#alert {
+  width: 100%;
+  height: 50px;
+  /* margin-top: 10px; */
+  margin-bottom: 20px;
+}
+
+.alert {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #198754;
+  width: 100%;
+  height: 50px;
+  font-size: 1.1rem;
+}
+
+.alert-success {
+  background-color: var(--color-success);
+}
+
+.alert-error {
+  background-color: var(--color-error);
 }

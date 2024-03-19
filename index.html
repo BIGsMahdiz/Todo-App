@@ -16,9 +16,9 @@
         <button id="edit-button">Edit</button>
         <div class="controle">
           <div>
-            <button class="filter-button">All</button>
-            <button class="filter-button">Pending</button>
-            <button class="filter-button">Completed</button>
+            <button class="filter-button" data-filter="all">All</button>
+            <button class="filter-button" data-filter="pending">Pending</button>
+            <button class="filter-button" data-filter="completed">Completed</button>
           </div>
           <div>
             <button id="delete-button">Delete All</button>
@@ -26,6 +26,7 @@
         </div>
       </form>
     </header>
+    <div id="alert"></div>
     <main>
       <table>
         <thead>
